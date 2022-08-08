@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'ubuntu',sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    background: url('182908.webp') no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-card{
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.pic{
+    display: inline-block;
+    padding: 5px;
+    background: linear-gradient(130deg,#ffc800,#d1ff03);
+    margin: auto;
+    border-radius: 50%;
+    background-size: 200% 200%;
+}
+.pic img{
+    width: 100px;
+    display: block;
+    border-radius: 50%;
+}
+.card-header{
+    background: #111111;
+    padding: 30px 30px;
+}
+.name{
+    color: #f2f2f2;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.skill{
+    font-size: 18px;
+    color: #ffc800;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.icon a{
+    color: #f2f2f2;
+    width: 56px;
+    font-size: 22px;
+    transition: .3s linear;
+}
+.icon a:hover{
+    color: #ffc800;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 50px;
+    color: #ffc800;
+    border: 2px solid #ffc800;
+    border-radius: 6px;
+    margin-top: 16px;
+    transition: .3s linear;
+}
+.btn:hover{
+    background: #ffc800;
+    color: #f2f2f2;
+}
+.car-footer{
+    background: #212121;
+    padding: 60px 10px;
+}
+.number{
+    display: flex;
+    align-items: center;
+}
+.item{
+    flex: 1;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #ffc800;
+}
+.item span{
+    display: block;
+    color: #ffffff;
+    font-style: bold;
+    font-size: 30px;
+}
+.border{
+    width: 1px;
+    height: 30px;
+    background: #bbb;
+}
